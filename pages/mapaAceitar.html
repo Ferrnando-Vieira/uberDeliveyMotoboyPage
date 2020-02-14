@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/mapaAceitar.css">
+    <script src='https://api.mapbox.com/mapbox-gl-js/v1.7.0/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v1.7.0/mapbox-gl.css' rel='stylesheet' />
+    <title>Uber Delivery</title>
+</head>
+<body>
+    
+    <div id="map"></div>
+    <div id="footerMap">
+        <div id="clienteDiv">
+            <img src="../assets/client.png" id="icnCliente" alt="">
+            <div id="clienteClass">
+                <div id="rankCli">
+                    <span id="valRank">4.8</span>
+                    <img src="../assets/estrela.png" id="estrela" alt="">
+                </div>
+                <span id="clienteText">Frequente</span>
+            </div>
+        </div>
+        <div id="divInferior">
+            <div id="infos">
+                <span id="distancia">1,0 <span id="medidaKm">km</span></span>
+                <span id="tempo">3 <span id="medidaMin">min</span></span>
+            </div>
+            <div id="btnDiv">
+                <a href="../index.html" id="btnAceitar"><span>ACEITAR</span></a>
+            </div>
+            
+        </div>        
+    </div>
+    <script src="../js/map.js"></script>
+</body>
+</html>

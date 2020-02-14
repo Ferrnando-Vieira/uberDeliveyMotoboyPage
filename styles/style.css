@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700&display=swap');
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+
+#map {
+    height: 90%;
+}
+
+#headMapa {
+    margin-top: 22px;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#deliveryman {
+    max-width: 47px;
+    max-height: 47px;
+    width: auto;
+    height: auto;
+}
+
+#carteira {
+    background: #000000;
+    padding: 12px 25px;
+    border: 3px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 90px;
+    font-size: 1.6em;
+    line-height: 20px;
+    color: #FFF;
+}
+
+#cifrao {
+    color: #D3AA6A;
+}
+
+#icnLupa {
+    max-width: 27px;
+    max-height: 27px;
+    width: auto;
+    height: auto;
+}
+
+#lupaDiv {
+    padding: 11px 11px 10px 10px;
+    background-color: #FFF;
+    border-radius: 50%;
+}
+
+#footerMap {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    height: 10%;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 1;
+    background-color: #FFF;
+    font-weight: 500;
+    font-size: 1.4em;
+    line-height: 20px;
+    text-decoration: none;
+    color: #000;
+}
+
+#setaCima {
+    max-width: 20px;
+    max-height: 14px;
+    width: auto;
+    height: auto;
+}
+
+#icnList {
+    max-width: 20px;
+    max-height: 15px;
+    width: auto;
+    height: auto;
+}

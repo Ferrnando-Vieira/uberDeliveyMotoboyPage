@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700&display=swap');
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+
+#map {
+    height: 60%;
+}
+
+#footerMap {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    height: 40%;
+    z-index: 1;
+    background-color: #000;
+}
+
+#clienteDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #C4C4C4;
+    height: 35%;
+    color: #FFF;
+    font-weight: 500;
+    font-size: 0.9em;
+    line-height: 20px;
+}
+
+#icnCliente {
+    max-width: 35px;
+    max-height: 35px;
+    width: auto;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+#clienteClass {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+}
+
+#infos {
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    font-weight: 500;
+    font-size: 3em;
+    line-height: 20px;
+}
+
+#medidaKm, #medidaMin {
+    font-size: 0.5em !important;
+}
+
+#divInferior {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 65%;
+}
+
+#btnDiv {
+    background-color: #D3AA6A;
+    width: 90%;
+    display: flex;
+}
+
+#btnAceitar {
+    text-decoration: none;
+    font-size: 1.2em;
+    line-height: 32px;
+    color: #000;
+    margin: auto;
+    padding: 13px 0;
+}
